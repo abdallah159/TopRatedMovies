@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Box</string>
+    <string name="about_title">About US </string>
+    <string name="about_body">Movie Box Is an Application that helps you
+to Find best and top rated online Movies.</string>
+    <string name="About_CREADITS">Design and Develobment \n\n khaled mahmoud \n Abdullah Mohamed</string>
+    <string name="About_made_for">This app is the final project of ITI suez canal branch summer training</string>
+    <string name="first_main1">My Movies</string>
+    <string name="first_main2">Profile</string>
+    <string name="first_main3">About</string>
+    <string name="first_main4">Log Out</string>
+
+
+</resources>

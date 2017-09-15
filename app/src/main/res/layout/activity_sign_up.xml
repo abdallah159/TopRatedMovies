@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#78909C"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#37474F">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Movie Box"
+            android:textColor="@color/colorWhite"
+            android:textSize="21sp"
+            android:gravity="fill"
+            android:layout_marginLeft="15dp"/>
+
+
+
+    </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="20dp"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:orientation="vertical"
+               android:layout_gravity="center">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@mipmap/logo"
+                   />
+           </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Join Us Now.. "
+            android:textSize="20sp"
+            style="@style/text_style"/>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+   android:layout_marginTop="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Enter Name"
+        style="@style/text_style"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/SignUpName"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Enter Phone"
+        style="@style/text_style"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/SignUpPhone"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/SignUoNow"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Sign Up now"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/butten"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/sginin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="Alredy Member ? Sign in " />
+
+</LinearLayout>
+
+
+
+</LinearLayout>

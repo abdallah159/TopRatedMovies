@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#78909C"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#37474F">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Movie Box"
+            android:textColor="@color/colorWhite"
+            android:textSize="21sp"
+            android:gravity="fill"
+            android:layout_marginLeft="15dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:src="@drawable/profile_pictures" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@android:drawable/ic_menu_myplaces" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="name"
+                    android:gravity="center"
+                    android:id="@+id/username"
+                    style="@style/text_style"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@android:drawable/stat_sys_phone_call_forward"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone"
+                    android:gravity="center"
+                    style="@style/text_style"
+                    android:id="@+id/userphone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@android:drawable/ic_dialog_alert"
+                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="id"
+                    android:gravity="center"
+                    style="@style/text_style"
+                    android:id="@+id/userid"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <!---->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="horizontal"-->
+       <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Name IS : "-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!---->
+            <!--android:id="@+id/username"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Phone Is: "-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!---->
+            <!--android:id="@+id/userphone"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Phone Is: "-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/userid"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--style="@style/text_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+
