@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import iti.abdallah.logintest.mvplogin.LogIn;
 import model.ModelSignUp;
 import rest.ApiClientSginUp;
 import rest.ApiInterfaceSginUp;

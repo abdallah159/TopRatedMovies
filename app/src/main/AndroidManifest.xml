@@ -23,7 +23,7 @@
         <activity android:name=".About">
         </activity>
 
-        <activity android:name=".LogIn">
+        <activity android:name=".mvplogin.LogIn">
         </activity>
 
         <activity android:name=".Home">
